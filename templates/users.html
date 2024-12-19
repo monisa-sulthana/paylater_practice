@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Users</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+
+    <div class="users_register-div">
+        <p>Users Register</p>
+        <form action="/users" method="post" onsubmit="alert('submitted')">
+            <input type="number" name="user_id" required placeholder="user_id"><br>
+            <input type="text" name="name" required placeholder="name"><br>
+            <input type="email" name="email" required placeholder="email"><br>
+            <input type="number" name="phone" required placeholder="phone"><br>
+            <input type="text" name="address" required placeholder="address"><br>
+            <input type="number" name="credit_limit"required placeholder="credit_limit"><br>
+            <input type="number" name="due"required placeholder="due"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="users_login-div">
+        <p>Users login</p>
+        <form action="/users" method="post" onsubmit="alert('submitted')">
+            <input type="number" name="user_id" required placeholder="user_id"><br>
+            <input type="text" name="name" required placeholder="name"><br>
+            <input type="email" name="email" required placeholder="email"><br>
+            <input type="number" name="phone" required placeholder="phone"><br>
+            <input type="text" name="address" required placeholder="address"><br>
+            <input type="number" name="credit_limit"required placeholder="credit_limit"><br>
+            <input type="number" name="due"required placeholder="due"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

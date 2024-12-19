@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(1, 1, 29);
+}
+
+.top-div{
+    float: left;
+    width: 14%;
+    background-color: aliceblue;
+    height: 610px;
+    text-decoration: none;
+}
+
+.top-div a{
+    text-decoration: none;
+}
+
+.top-div li{
+    list-style-type: none;
+    text-align: center;
+    color: rgb(1, 1, 29);
+    font-size: 25px;
+    margin: 45% 0% 40% 0%;
+}
+
+.main-div{
+    float: top;
+    width: 97%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Anton", serif;
+    font-weight: 400px;
+}
+
+.bottom-div{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.about-div{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.data-div{
+    float: left;
+    width: 100%;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0% 0% 0% 5%;
+}
+
+.merchants-div{
+    float: left;
+    width: 100%;
+}
+
+.merchants-div p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    margin: 5% 0% 5% 0%;
+}
+
+.merchants-div input, .merchants-div button{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 1% 0% 0% 40%;
+}
+
+.merchants-div button{
+    color: grey;
+}
+
+.users_register-div, .users_login-div{
+    float: left;
+    width: 50%;
+}
+
+.users_register-div p, .users_login-div p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    margin: 5% 0% 5% 0%;
+}
+
+.users_register-div input, .users_register-div button, .users_login-div input, .users_login-div button{
+    color: grey;
+    font-size: 20px;
+    margin: 1% 0% 0% 40%;
+}
+
+.users-div button{
+    color: grey;
+}
+
+.reports-div h1{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+
